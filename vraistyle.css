@@ -1,22 +1,56 @@
-.a{
-    position : fixed   
+body{
+    background-color: black;
 }
-.center{
+
+p{
     text-align: center;
-    text-align: left;
+    font-size: 40px;
+    color: #26a0da;
 }
-.deco{
-    border: none;
+
+header{
+    background-color: white;
+}
+
+.trait{
     text-decoration: none;
+    color: black;
+
 }
-.box {
-    text-align: right;
-    width: 500px;
-    word-wrap: break-word;
+
+button{
+    background-color: white;
+    border: 5px solid white;
+    color: yellow;
+    text-align: center;
 }
-h1{
-    font-family: "ROBOTO", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+.btn-grad {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: center; /* change the direction of the change here */color: #fff;
+    text-decoration: none;
 }
 
