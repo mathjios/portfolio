@@ -1,0 +1,495 @@
+/*  
+option generale des pages
+*/
+
+body{
+    background-color: black;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: #26a0da;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+button{
+    background-color: white;
+    border: 5px solid white;
+    text-align: center;
+}
+
+div{
+    overflow: hidden;
+}
+
+img{
+    margin-left: 50px;
+    position: relative;
+    margin-top: 10px;
+    width: 200px;
+    background-color: black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-left: 85%;
+}
+
+/*
+les boutons
+*/
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+
+.btn-grad {
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: center; /* change the direction of the change here */color: #fff;
+    text-decoration: none;
+}
+
+.baa{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.trait{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* 
+option personaliser pour les pages 
+*/
+
+
+/* 
+a propos
+*/
+.bou{
+    display: flex;
+    justify-content: center;
+}
+
+.tex{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.info{
+    border-radius: 10px;
+    color: white;
+}
+
+/*
+bts
+*/
+.gauche{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.droite{
+    margin-left: 200px;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.dedans{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* 
+ecole entreprise
+*/
+.espace{
+    margin-top: 100px;
+}
+
+.centrale{
+    margin-left: 400px;
+}
+
+
+/* 
+contact
+*/
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    margin-top: 500px;
+    margin-left: 600px;
+}
+
+/* for all social containers*/
+.socialContainer {
+    width: 40px;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 1.2s;
+    border-radius: 15px 0 15px 0px;
+}
+/* instagram*/
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 1.2s;
+}
+/* twitter*/
+.containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: 1.2s;
+}
+/* linkdin*/
+.containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 1.2s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+    background-color: #f90101;
+    transition-duration: 1.2s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 1.2s;
+}
+
+.socialSvg {
+    width: 17px;
+}
+
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 1.2s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* responsif - le site reste identique sur grand écran */
+
+@media (max-width: 1400px) {
+    /* Adaptation douce pour écrans moyens */
+    .gauche {
+        margin-left: 50px;
+    }
+    
+    .droite {
+        margin-left: 100px;
+    }
+    
+    .centrale {
+        margin-left: 200px;
+    }
+    
+    .card {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 1200px) {
+    p {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    .tex {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .gauche {
+        margin-left: 30px;
+        width: 450px;
+        height: 450px;
+    }
+    
+    .droite {
+        margin-left: 80px;
+        width: 450px;
+        height: 450px;
+    }
+    
+    .centrale {
+        margin-left: 150px;
+    }
+    
+    .card {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Navigation reste horizontale mais flexible */
+    .baa {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .btn-grad {
+        padding: 15px;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+    
+    h2 {
+        font-size: 35px;
+        margin-bottom: 70px;
+    }
+    
+    .gauche, .droite {
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    
+    .centrale {
+        margin-left: 100px;
+    }
+    
+    .card {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Navigation en colonne pour tablettes */
+    .baa {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .btn-grad {
+        width: 90%;
+        margin: 5px auto;
+    }
+    
+    p {
+        font-size: 22px;
+    }
+    
+    h1 {
+        margin-top: 80px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .tex {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    /* Les boîtes gauche/droite passent en bloc */
+    .gauche, .droite {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    
+    .dedans {
+        font-size: 22px;
+    }
+    
+    img {
+        margin-left: 20px;
+        width: 150px;
+    }
+    
+    .centrale {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+    
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+    }
+    
+    footer {
+        position: relative;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adaptation pour smartphones */
+    h1 {
+        font-size: 1.6rem;
+        margin-top: 60px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    
+    p {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .btn-grad {
+        width: 95%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .tex {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .gauche, .droite {
+        width: 90%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+    .dedans {
+        font-size: 18px;
+    }
+    
+    .bou {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+        margin-left: 10px;
+        width: 120px;
+    }
+    
+    .centrale {
+        width: 90%;
+    }
+    
+    .card {
+        margin-top: 200px;
+        padding: 20px;
+    }
+    
+    .socialContainer {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .btn-grad {
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .gauche, .droite {
+        width: 95%;
+    }
+    
+    img {
+        width: 100px;
+    }
+}
