@@ -1,17 +1,17 @@
-# 💻 Portfolio – BTS SIO SLAM
+# 💻 Portfolio – Licence Conception d'applications
 
 Bienvenue sur mon portfolio personnel.
 
 Ce site présente mon parcours, mes compétences, mes projets réalisés ainsi que ma veille technologique dans le domaine de l'informatique et du développement web.
 
 🌐 **Voir le portfolio :**  
-https://mathjios.github.io/portfolio/
+https://mathjios.github.io/portefolio/
 
 ---
 
 ## 👨‍💻 À propos de moi
 
-Je suis étudiant en **LICENCE CONCEPTION D'APPLICATION**.
+Je suis étudiant en **Licence Conception d'applications**.
 
 Je m'intéresse particulièrement au développement web, à la programmation, aux bases de données et à la création d'applications.
 
@@ -21,18 +21,15 @@ Je m'intéresse particulièrement au développement web, à la programmation, au
 
 ## 🎓 Formation
 
-### BTS SIO – SLAM
+### Licence – Conception d'applications
 
-**Services Informatiques aux Organisations – Solutions Logicielles et Applications Métiers**
+Cette formation est orientée vers la conception et le développement d'applications.
 
-La spécialité SLAM est principalement orientée vers :
-
-- 💻 Développement d'applications
+- 💻 Conception et développement d'applications
 - 🌐 Développement web
 - 🗄️ Gestion de bases de données
-- 🔧 Maintenance et évolution des applications
-- 📊 Analyse et conception de solutions informatiques
-- 🔐 Sécurité des applications et des données
+- 🔧 Évolution et maintenance des applications
+- 📊 Analyse des besoins et conception de solutions
 
 ---
 
@@ -83,9 +80,9 @@ Présentation générale du portfolio.
 
 Présentation de mon parcours et de mon profil.
 
-### 🎓 BTS SIO
+### 🎓 Licence
 
-Présentation de ma formation BTS SIO et de l'option SLAM.
+Présentation de ma formation en conception d'applications.
 
 ### 💼 École & Entreprise
 
@@ -118,7 +115,7 @@ portefolio/
     │
     ├── index.html
     ├── a_propos.html
-    ├── bts sio.html
+    ├── licence.html
     ├── competences.html
     ├── contact.html
     ├── projet.html
@@ -128,7 +125,6 @@ portefolio/
     │
     ├── vraistyle.css
     ├── contact.css
-    ├── main.js
     │
     ├── img/
     │
