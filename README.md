@@ -5,7 +5,7 @@ Bienvenue sur mon portfolio personnel.
 Ce site présente mon parcours, mes compétences, mes projets réalisés ainsi que ma veille technologique dans le domaine de l'informatique et du développement web.
 
 🌐 **Voir le portfolio :**  
-https://mathjios.github.io/portefolio/
+https://mathjios.github.io/portfolio/
 
 ---
 
