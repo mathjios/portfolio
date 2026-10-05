@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projets réalisés par Mathieu Soares de Sousa.">
     <link rel="stylesheet" href="vraistyle.css">
-    <title>Portfolio</title>
+    <title>Projets - Portfolio</title>
 </head>
-
-
-
 <body>
     <header>
-        <nav class="baa">
-            <button class="btn-grad"><a href="a_propos.html" class="trait">A propos</a></button>
-            <button class="btn-grad"><a href="licence.html"class="trait">LICENCE</a></button>
-            <button class="btn-grad"><a href="Ecole et entreprise.html" class="trait">Ecole & Entreprise</a></button>
-            <button class="btn-grad">Projets</button>
-            <button class="btn-grad"><a href="veille technologique.html" class="trait">Veille technologique</a></button>
-            <button class="btn-grad"><a href="contact.html" class="trait">Contact</a></button>
-        </nav>
-    </header>
+    <nav class="baa" aria-label="Navigation principale">
+        <a href="a_propos.html" class="btn-grad trait">À propos</a>
+        <a href="licence.html" class="btn-grad trait">Licence</a>
+        <a href="Ecole et entreprise.html" class="btn-grad trait">École &amp; Entreprise</a>
+        <a href="projet.html" class="btn-grad trait">Projets</a>
+        <a href="veille technologique.html" class="btn-grad trait">Veille technologique</a>
+        <a href="contact.html" class="btn-grad trait">Contact</a>
+    </nav>
+</header>
+    <main class="page-content">
+        <h1>Projets</h1>
 
-    <h1>Pizzeria</h1>
-    <div class="tex">
+        <section class="project">
+            <h2>Pizzeria</h2>
+            <div class="tex">
+                <p class="info">
+                    Ce projet est la représentation d'un site de commande en ligne.
+                    Il est possible de commander des pizzas après avoir créé un compte et de renseigner
+                    une adresse pour la livraison.
+                </p>
+                <a href="https://github.com/mathjios/pizzeria" target="_blank" rel="noopener noreferrer"
+                   class="btn-grad trait">Voir le projet sur GitHub</a>
+            </div>
+        </section>
 
-        <p class="info">
-            Le projet ici présent est la représentation d'un site pour un service de commande en ligne.
-            Dans ce site il est possible de commander des pizzas en se connectant avec un compte que l'on crée. Pour
-            la commande, il suffit d'ajouter ce que l'on sélectionne puis d'insérer une adresse afin de pouvoir être
-            livré.
-        </p>
-        <button class="btn-grad"><a href="https://github.com/mathjios/pizzeria" class="trait">Accès pour le
-                site</a></button>
-
-    </div>
-
-    <h1>Fleet Manager</h1>
-    <div class="tex">
-
-        <p class="info">
-            Le projet ici présent est la représentation d'une application de gestion de flotte de véhicules.
-            Sur cette application il est possible de louer un véhicule et noter sa consommation de carburant et de voir
-            un graphique sur sa consommation par rapport à la distance parcourue.
-        </p>
-        <button class="btn-grad"><a href="https://github.com/mathjios/fleet-manager" class="trait">Accès pour le
-                site</a></button>
-
-    </div>
+        <section class="project">
+            <h2>Fleet Manager</h2>
+            <div class="tex">
+                <p class="info">
+                    Ce projet est une application de gestion de flotte de véhicules.
+                    Elle permet notamment de louer un véhicule, d'enregistrer sa consommation de carburant
+                    et de visualiser un graphique mettant en relation la consommation et la distance parcourue.
+                </p>
+                <a href="https://github.com/mathjios/fleet-manager" target="_blank" rel="noopener noreferrer"
+                   class="btn-grad trait">Voir le projet sur GitHub</a>
+            </div>
+        </section>
+    </main>
 </body>
-
 </html>

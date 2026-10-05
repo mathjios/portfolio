@@ -1,74 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Base styles -->
+    <meta name="description" content="Coordonnées de contact de Mathieu Soares de Sousa.">
     <link rel="stylesheet" href="vraistyle.css">
-    <!-- Contact specific styles -->
     <link rel="stylesheet" href="contact.css">
-    <title>Portfolio - Contact</title>
+    <title>Contact - Portfolio</title>
 </head>
-
 <body>
     <header>
-        <nav class="baa">
-            <a href="a_propos.html" class="btn-grad trait">A propos</a>
-            <button class="btn-grad"><a href="licence.html"class="trait">LICENCE</a></button>
-            <a href="Ecole et entreprise.html" class="btn-grad trait">Ecole & Entreprise</a>
-            <a href="projet.html" class="btn-grad trait">Projets</a>
-            <a href="veille technologique.html" class="btn-grad trait">Veille technologique</a>
-            <a href="contact.html" class="btn-grad trait active-nav">Contact</a>
-        </nav>
-    </header>
-
+    <nav class="baa" aria-label="Navigation principale">
+        <a href="a_propos.html" class="btn-grad trait">À propos</a>
+        <a href="licence.html" class="btn-grad trait">Licence</a>
+        <a href="Ecole et entreprise.html" class="btn-grad trait">École &amp; Entreprise</a>
+        <a href="projet.html" class="btn-grad trait">Projets</a>
+        <a href="veille technologique.html" class="btn-grad trait">Veille technologique</a>
+        <a href="contact.html" class="btn-grad trait">Contact</a>
+    </nav>
+</header>
     <main class="contact-main-wrapper">
-        <div class="glass-orb orb-1"></div>
-        <div class="glass-orb orb-2"></div>
+        <div class="glass-orb orb-1" aria-hidden="true"></div>
+        <div class="glass-orb orb-2" aria-hidden="true"></div>
 
         <h1 class="sparkle-title">Contactez-moi</h1>
-        <p class="contact-subtitle">N'hésitez pas à me contacter pour toute demande d'information ou proposition de projet.</p>
+        <p class="contact-subtitle">
+            N'hésitez pas à me contacter pour toute demande d'information ou proposition de projet.
+        </p>
 
         <div class="contact-glass-container">
             <div class="contact-info-panel">
-                <h3>Mes Coordonnées</h3>
-                <div class="info-item">
-                    <div class="icon-bubble">
-                        <svg viewBox="0 0 24 24" class="info-icon" stroke="currentColor" stroke-width="2" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                            </path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
-                        </svg>
-                    </div>
+                <h2>Mes coordonnées</h2>
+
+                <a class="info-item" href="mailto:mathieusds2004@gmail.com">
+                    <span class="icon-bubble" aria-hidden="true">✉</span>
                     <span>mathieusds2004@gmail.com</span>
-                </div>
-                <div class="info-item">
-                    <div class="icon-bubble">
-                        <svg viewBox="0 0 24 24" class="info-icon" stroke="currentColor" stroke-width="2" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                            </path>
-                        </svg>
-                    </div>
+                </a>
+
+                <a class="info-item" href="tel:+33662839309">
+                    <span class="icon-bubble" aria-hidden="true">☎</span>
                     <span>06 62 83 93 09</span>
-                </div>
+                </a>
+
                 <div class="info-item">
-                    <div class="icon-bubble">
-                        <svg viewBox="0 0 24 24" class="info-icon" stroke="currentColor" stroke-width="2" fill="none"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                    </div>
+                    <span class="icon-bubble" aria-hidden="true">⌖</span>
                     <span>Paris, France</span>
                 </div>
             </div>
-
         </div>
     </main>
 </body>
-
 </html>
