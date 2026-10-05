@@ -5,13 +5,13 @@ Bienvenue sur mon portfolio personnel.
 Ce site présente mon parcours, mes compétences, mes projets réalisés ainsi que ma veille technologique dans le domaine de l'informatique et du développement web.
 
 🌐 **Voir le portfolio :**  
-https://mathjios.github.io/portefolio/
+https://mathjios.github.io/portfolio/
 
 ---
 
 ## 👨‍💻 À propos de moi
 
-Je suis étudiant en **BTS SIO – option SLAM (Solutions Logicielles et Applications Métiers)**.
+Je suis étudiant en **LICENCE CONCEPTION D'APPLICATION**.
 
 Je m'intéresse particulièrement au développement web, à la programmation, aux bases de données et à la création d'applications.
 
