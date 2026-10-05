@@ -1,29 +1,131 @@
-# Portfolio corrigé
+# 💻 Portfolio – Licence Conception d'applications
 
-Cette version corrige principalement :
+Bienvenue sur mon portfolio personnel.
 
-- la navigation HTML (`<a>` utilisés directement au lieu de `<button><a>`);
-- les structures HTML invalides ;
-- les `margin-left` / `margin-top` fixes qui cassaient le responsive ;
-- les tailles globales trop grandes des paragraphes ;
-- la mise en page avec Flexbox/Grid ;
-- le responsive mobile/tablette/ordinateur ;
-- les textes et plusieurs fautes d'orthographe ;
-- les attributs `alt` des images ;
-- les titres et descriptions SEO de base ;
-- les liens GitHub, avec un libellé indiquant qu'ils ouvrent le dépôt ;
-- la page Contact (liens email/téléphone réellement cliquables) ;
-- la page École & Entreprise ;
-- la structure de `jsp.html`.
+Ce site présente mon parcours, mes compétences, mes projets réalisés ainsi que ma veille technologique dans le domaine de l'informatique et du développement web.
 
-## Important
+🌐 **Voir le portfolio :**  
+https://mathjios.github.io/portefolio/
 
-Les images, le CV PDF et les autres ressources du dossier `img/` ne sont pas inclus ici car ils n'ont pas été fournis avec les fichiers HTML/CSS.
+---
 
-Il faut conserver ton dossier `img/` à côté des fichiers HTML pour que les images et le CV fonctionnent.
+## 👨‍💻 À propos de moi
 
-## Déploiement GitHub Pages
+Je suis étudiant en **Licence Conception d'applications**.
 
-Conserve la structure de ton dépôt actuelle ou place les fichiers HTML/CSS directement dans le dossier publié par GitHub Pages.
+Je m'intéresse particulièrement au développement web, à la programmation, aux bases de données et à la création d'applications.
 
-Le fichier `index.html` doit se trouver à la racine du dossier utilisé comme source de déploiement.
+À travers ce portfolio, je présente mon parcours et les différents projets réalisés pendant ma formation.
+
+---
+
+## 🎓 Formation
+
+### Licence – Conception d'applications
+
+Cette formation est orientée vers la conception et le développement d'applications.
+
+- 💻 Conception et développement d'applications
+- 🌐 Développement web
+- 🗄️ Gestion de bases de données
+- 🔧 Évolution et maintenance des applications
+- 📊 Analyse des besoins et conception de solutions
+
+---
+
+## 🛠️ Compétences
+
+### 🌐 Développement Web
+
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+- Responsive Design
+
+### 🗄️ Bases de données
+
+- MySQL
+- SQL
+- phpMyAdmin
+- Conception de bases de données
+
+### 🔧 Outils
+
+- Git
+- GitHub
+- Visual Studio Code
+- XAMPP
+- GitHub Pages
+
+### 📚 Méthodes
+
+- UML
+- MCD / MLD
+- Gestion de projets
+- Analyse des besoins
+- Modélisation d'applications
+
+---
+
+## 📂 Contenu du portfolio
+
+Le portfolio contient plusieurs sections :
+
+### 🏠 Accueil
+
+Présentation générale du portfolio.
+
+### 👤 À propos
+
+Présentation de mon parcours et de mon profil.
+
+### 🎓 Licence
+
+Présentation de ma formation en conception d'applications.
+
+### 💼 École & Entreprise
+
+Informations concernant mon parcours scolaire et professionnel.
+
+### 🚀 Réalisations
+
+Présentation de différents travaux et projets réalisés.
+
+### 💻 Projets
+
+Présentation de mes projets informatiques.
+
+### 📰 Veille technologique
+
+Présentation de ma veille technologique sur différents sujets liés à l'informatique.
+
+### 📩 Contact
+
+Moyens de me contacter.
+
+---
+
+## 📁 Structure du projet
+
+```text
+portefolio/
+│
+└── portfolio-main/
+    │
+    ├── index.html
+    ├── a_propos.html
+    ├── licence.html
+    ├── competences.html
+    ├── contact.html
+    ├── projet.html
+    ├── realisation.html
+    ├── veille technologique.html
+    ├── Ecole et entreprise.html
+    │
+    ├── vraistyle.css
+    ├── contact.css
+    │
+    ├── img/
+    │
+    └── ...
